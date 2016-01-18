@@ -1,0 +1,10 @@
+These are some notes for the install script:
+
+* Version control
+When a new version of the dotfiles is installed the file .dotfiles-$USER should have a date appended to the end.
+
+* Choices
+ The script should allow for a choice of editor, browser, email client, IRC client and so on ... simply have it print to the yaourt $application and allow the user to press enter or change it, no spaghetti required.*
+
+* Allow for expandability
+set up version control such that if anything is added to the dotfiles it will be added to the git (when commited), with all the links preserved. (wildcarding stow i guess).

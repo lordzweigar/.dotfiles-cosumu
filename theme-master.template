@@ -1,0 +1,11 @@
+#!/bin/bash
+
+THEME_NAME=
+
+TERMITE_CONFIG=./termite.conf
+
+NCMPCPP_CONFIG=./ncmpcpp.conf
+
+
+# bash things could be specified here, but its best to keep it modular, and have a seperate file caled bash.conf
+# and so on

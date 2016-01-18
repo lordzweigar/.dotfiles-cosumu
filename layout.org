@@ -1,0 +1,46 @@
+* Design
+These dotfiles are a for of Neeasade's BSPWM dotfiles, However I decided to organize them into something that makes sense to me
+** File layout
+ All files are to be organized into one of the follwing:
+NOTE: some of these catagories are mutually inclusive
+* .dotfiles-$USER (autoset in script to allow for easy forking)
+** window-manager
+*** bspwm
+bspwmrc
+*** compton
+- comptonrc
+*** bar
+- panel
+- panel_bar
+- info.sh
+*** sxhkd
+- sxhkdrc
+*** dunst
+- dunstrc
+** terminal-applications
+*** Weechat
+- all the weechat stuff
+*** Termite
+-- termite.config  and stuff but not themes
+** media
+*** mpd
+*** ncmpcpp
+*** mpv
+** editors
+*** emacs
+*** neovim
+** static config
+## this folder is 'master files' and where they will be symlinked from, for example, your bashrc, ncmpcpp config, muttrc and so on.
+** themes
+## This folder is for all themeing, being done this way allows for partial configs, so that your muttrc, ncmpcpp config and all of that stuff can change for every theme.
+## A unified naming scheme would be a good idea. maybe <app>.config
+*** theme name
+  - theme-master ## this file links everything together
+  - termite config 
+  - bspwmrc
+  - sxhkdrc
+  - comptonrc
+  - ncmpcpp config
+  - muttrc
+  - bash.conf 
+
